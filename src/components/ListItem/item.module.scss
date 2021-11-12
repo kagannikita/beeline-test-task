@@ -1,0 +1,33 @@
+.item{
+  flex-grow: 1;
+}
+.title{
+    padding-right: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+h3{
+  color:black;
+}
+.desc{
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    color: rgba(0,0,0,.6);
+    line-height: 1.5;
+}
+.user{
+  letter-spacing: 0px;
+  display: flex;
+  font-size: .875rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  color: rgba(0,0,0,.8);
+  line-height: 1.5;
+  flex-direction: row;
+}
